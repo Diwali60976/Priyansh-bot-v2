@@ -14,9 +14,9 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   if (event.body.indexOf("ADMIN")==0 || event.body.indexOf("Admin")==0 || event.body.indexOf("/Admin")==0 || event.body.indexOf("#admin")==0) {
     var msg = {
-        body: "🫅 𝐎𝐖𝐍𝐄𝐑 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 🫅",
+        body: "🫅 𝗠𝗔𝗗𝗘 𝗜𝗡 𝗥𝗔𝗝 𝗫𝗪𝗗 🫅",
         attachment: 
-fs.createReadStream(__dirname + `/noprefix/profile.png`)
+fs.createReadStream(__dirname + https://i.imgur.com/ieuigWe.jpeg)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🫅", event.messageID, (err) => {}, true)
